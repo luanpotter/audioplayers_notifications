@@ -1,5 +1,5 @@
 name: audioplayers_notifications
-description: A plugin to complement the audioplayers package by adding notifications/lock-screen support
+description: A module to complement the audioplayers plugin by adding notifications/lock-screen support
 version: 0.1.0
 
 environment:
