@@ -1,0 +1,18 @@
+name: audioplayers_notifications
+description: A plugin to complement the audioplayers package by adding notifications/lock-screen support
+version: 0.1.0
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.16.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false

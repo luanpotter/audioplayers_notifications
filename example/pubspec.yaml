@@ -1,0 +1,20 @@
+name: audioplayers_notifications_example
+description: Demonstrates how to use the audioplayers_notifications plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers_notifications:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false
