@@ -8,7 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^0.16.2
+  audioplayers:
+    path: ../audioplayers
 
 dev_dependencies:
   flutter_test:

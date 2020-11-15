@@ -9,11 +9,11 @@ packages:
     source: hosted
     version: "2.5.0-nullsafety.2"
   audioplayers:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      name: audioplayers
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../../audioplayers"
+      relative: true
+    source: path
     version: "0.16.2"
   audioplayers_notifications:
     dependency: "direct main"
