@@ -27,7 +27,7 @@ class _APNotificationsAppState extends State<APNotificationsApp> {
 
   void setupNotifications() {
     player.startHeadlessService();
-    // player.monitorNotificationStateChanges(callbackHandler);
+    player.monitorNotificationStateChanges(callbackHandler);
   }
 
   Widget buildMainPage(BuildContext context) {
@@ -44,14 +44,14 @@ class _APNotificationsAppState extends State<APNotificationsApp> {
   }
 
   void startPlaying() async {
-    await player.play(testAudio, isLocal: false);
+    await player.play(testAudio, isLocal: false, respectSilence: false, duckAudio: true);
     await player.setNotification(
       title: 'Song Title',
       albumTitle: 'Album Title',
       artist: 'Artist Name',
-      // imageUrl: 'https://luan.xyz/me/avatars/luan.nico.png',
-      // duration: Duration(seconds: 10),
-      // elapsedTime: Duration(seconds: 3),
+      imageUrl: 'https://luan.xyz/me/avatars/luan.nico.png',
+      duration: Duration(seconds: 10),
+      elapsedTime: Duration(seconds: 3),
     );
   }
 
